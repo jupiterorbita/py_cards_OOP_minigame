@@ -1,6 +1,6 @@
 # game!
 import random
-from random import shuffle
+# from random import shuffle, random
 import time
 
 while True:
@@ -23,7 +23,7 @@ while True:
                   self.cards.append(Card(i, suit))
           return self
       def shuffle(self):
-      # fisher yates shuffle 
+      # fisher yates shuffle
         for _ in range(1):
             for i in range(len(self.cards)-1, 0, -1):
                 random_i = random.randint(0, i)
