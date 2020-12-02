@@ -16,7 +16,7 @@ while True:
       def __init__(self):
           self.cards = []
       def buildDeck(self):
-          self.cards = []
+          # self.cards = []
         # create a deck 4 suits, each suit has 13 cards
           for suit in ['♥ hearts', '♣ clubs', '♦ diamonds', '♠ spades']:
               for i in range(1, 14):
