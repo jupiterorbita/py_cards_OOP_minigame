@@ -23,7 +23,7 @@ while True:
                   self.cards.append(Card(i, suit))
           return self
       def shuffle(self):
-      # fisher yates shuffle
+      # disclaimer: we found this on the internet and copy pasted it!! 🙀
         for _ in range(1):
             for i in range(len(self.cards)-1, 0, -1):
                 random_i = random.randint(0, i)
